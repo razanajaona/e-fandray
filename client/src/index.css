@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.nav {
+  height: 80px;
+}
+
+.content {
+  margin-top: 80px;
+  height: calc(100vh - 80px);
+}
+
+.chatarea {
+  height: calc(100vh - 80px);
+  max-height: calc(100vh - 80px);
+}
+.titre{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #FF6B51;
+}
+.bouton{
+  background: #d1705e;
+}
+.bouton:hover{
+  background: #FF6B51;
+}
+.utilisateur{
+  background: rgb(199, 99, 99);
+  margin: 0.5em;
+}
+
+.sidebar{
+  background: #d1705e;
+}
+.par{
+  color: white;
+}
